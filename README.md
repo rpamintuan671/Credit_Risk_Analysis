@@ -119,3 +119,6 @@ Testing over-and under-sampling algorithm. Below is a result of resampling data 
 
 
 # Summary:
+Various machine learning models were utilized to evaluate the most effective in predicting credit credit risk. In this analysis, the accuracy, precision and sensitiviy were reviewed for each model.  The confusion matrix correlates with the result of accuracy, precision and sensitivity. 
+
+Each models result differ from one another. The precision score for all the models is overfit therefore it should be combined with recall and accuracy score. It is recommended that the perfect model to utilize in credit risk analysis is the Easy Ensemble AdaBoost Classifier. 
