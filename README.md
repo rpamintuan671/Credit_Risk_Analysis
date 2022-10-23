@@ -1,18 +1,18 @@
-#Credit Risk Analysis - Supervised Learning
+# Credit Risk Analysis - Supervised Learning
 ![](Resources/Credit%20Decision.jpg)
 
-## Overview of the Analysis
+# Overview of the Analysis
 In this project, credit risk is an unbalanced classification problem because good loans outnumber risky loans. In order our analysis would be more accurate, we are implementing different techniques to train and evaluate models with unbalanced classes. 
 A dataset from LendingClub, a peer-to-peer lending services company will be utilize and employ the following:
 
-> *  Oversampling the data using '''RandomOverSampler''' and '''SMOTE''' algorithms. 
+> *  Oversampling the data using **Naive RandomOverSampler** and **SMOTE** algorithms. 
 
-> * Undersample the data using '''ClusterCentoroids''' algorithm.
+> * Undersample the data using **ClusterCentoroids** algorithm.
 
-> * Use a combinatorial approach of over- and undersampling using the '''SMOTEENN''' algorithm.
+> * Use a combinatorial approach of over- and undersampling using the **SMOTEENN** algorithm.
 
 
-> * Compare two machine learning models that reduce bias, '''BalancedRandomForestClassifier''' and '''EasyEnsembleClassifier'''.
+> * Compare two machine learning models that reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**.
 
 
 
@@ -22,7 +22,7 @@ A dataset from LendingClub, a peer-to-peer lending services company will be util
 > * Software: Jupyter Notebook, Pythondata, Anaconda Navigator 
 
 
-## Results:
+# Results:
 ### Naive Random Oversampling
 
 #### Balanced Accuracy Score
@@ -72,5 +72,30 @@ Testing over-and under-sampling algorithm. Below is a result of resampling data 
 #### Imbalanced Classification Report
 ![](Resources/Combination%20Over%20and%20Under%20Sampling%20Classification%20Report.png)
 
+## Esemble Learners
+### Balance Random Forest Classifier
 
-## Summary:
+#### Balanced Accuracy Score
+![](Resources/Balanced%20Random%20Forest%20Classifier%20Accuracy%20Score.png)
+
+####  Confusion Matrix
+![](Resources/Balanced%20Random%20Forest%20Classifier%20Confusion%20Matrix.png)
+
+
+#### Imbalanced Classification Report
+![](Resources/Balanced%20Random%20Forest%20Classifier%20Imbalanced%20Classification%20Report.png)
+
+### Easy Ensemble AdaBoost Classfier
+
+#### Balanced Accuracy Score
+![](Resources/Easy%20Ensemble%20Adaboost%20Classifier%20Balanced%20Accuracy%20Score.png)
+
+####  Confusion Matrix
+![](Resources/Easy%20Ensemble%20Adaboost%20Classifier%20Confusion%20Matrix.png)
+
+
+#### Imbalanced Classification Report
+![](Resources/Easy%20Ensemble%20Adaboost%20Classifier%20Imbalanced%20Classification%20Report.png)
+
+
+# Summary:
